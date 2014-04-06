@@ -1,3 +1,5 @@
+(require 'package) 
+(package-initialize)
 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -5,11 +7,12 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (solarized-light)))
- '(custom-safe-themes (quote ("1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365" "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6" default)))
+ '(custom-safe-themes (quote ("d677ef584c6dfc0697901a44b885cc18e206f05114c8a3b7fde674fce6180879" "1e7e097ec8cb1f8c3a912d7e1e0331caeed49fef6cff220be63bd2a6ba4cc365" "fc5fcb6f1f1c1bc01305694c59a1a861b008c534cae8d0e48e4d5e81ad718bc6" default)))
  '(eclim-eclipse-dirs (quote ("/usr/share/eclipse")))
  '(eclim-executable "/usr/share/eclipse/eclim")
  '(font-use-system-font t)
  '(semantic-c-dependency-system-include-path (quote ("/usr/include" "/usr/include/c++/4.7.2/" "/usr/lib/gcc/x86_64-unknown-linux-gnu/4.7.2/include/")))
+ '(session-use-package t nil (session))
  '(show-paren-mode t)
  '(wg-query-for-save-on-emacs-exit t))
 (custom-set-faces
@@ -18,14 +21,13 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "文泉驿等宽微米黑" :foundry "unknown" :slant normal :weight normal :height 128 :width normal))))
- '(wg-current-workgroup-face ((t (:foreground "black")))))
+ '(wg-current-workgroup-face ((t (:foreground "black"))) t))
 (put 'upcase-region 'disabled nil)
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
 			 ("marmalade" . "http://marmalade-repo.org/packages/")
 			 ("melpa" . "http://melpa.milkbox.net/packages/")))
-(require 'package) 
-(package-initialize)
+
 
 
 (require 'auto-complete-config)
@@ -255,10 +257,10 @@ Emacs buffers are those whose name starts with *."
 (require 'auctex-autoloads)
 (require 'preview)
 
-(require 'color-theme)
-(require 'color-theme-solarized)
+;;(require 'color-theme)		       
+;;(require 'color-theme-solarized)
 
-(color-theme-solarized-light)
+;;(color-theme-solarized-light)
 
 ;; (add-to-list 'load-path "/home/gsc/.emacs.d/elpa/workgroups-20110724.1825/")
 ;; (require 'workgroups)
