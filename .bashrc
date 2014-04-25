@@ -120,6 +120,7 @@ alias spr='sudo apt-get remove'
 alias spsyu='sudo apt-get update&&sudo apt-get upgrade'
 alias spsy='sudo apt-get update'
 alias spq='apt-cache show'
+alias spc='sudo apt-get autoremove&&sudo apt-get autoclean'
 alias df='df -h' 
 alias gproxy="export http_proxy='127.0.0.1:8089'"
 alias chhosts="sv /etc/hosts"
@@ -138,5 +139,5 @@ HISTFILESIZE=10000
 HISTSIZE=5000
 bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
-export PATH="/opt/android-sdk/platform-tools/:$HOME/.linuxbrew/bin:$PATH"
+export PATH=" /home/gsc/data/MATLAB/R2013a/bin/:/opt/android-sdk/platform-tools/:$HOME/.linuxbrew/bin:$PATH"
 export LD_LIBRARY_PATH="$HOME/.linuxbrew/lib:$LD_LIBRARY_PATH"
