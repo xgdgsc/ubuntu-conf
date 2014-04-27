@@ -114,12 +114,12 @@ if ! shopt -oq posix; then
 fi
 alias sv='sudo vim'
 alias sp='sudo apt-get'
-alias sps='sudo apt-get install'
-alias spss='apt-cache search'
-alias spr='sudo apt-get remove'
-alias spsyu='sudo apt-get update&&sudo apt-get upgrade'
-alias spsy='sudo apt-get update'
-alias spq='apt-cache show'
+alias sps='sudo apt install'
+alias spss='apt search'
+alias spr='sudo apt remove'
+alias spsyu='sudo apt update&&sudo apt upgrade'
+alias spsy='sudo apt update'
+alias spq='apt show'
 alias spc='sudo apt-get autoremove&&sudo apt-get autoclean'
 alias df='df -h' 
 alias gproxy="export http_proxy='127.0.0.1:8089'"
