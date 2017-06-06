@@ -127,14 +127,6 @@ alias chhosts="sv /etc/hosts"
 alias chresolv="sv /etc/resolv.conf"
 alias punzip='python2 /home/gsc/Documents/punzip.py'
 alias clearRecent='rm /home/gsc/.local/share/recently-used.xbel'
-BLUE=`tput setf 1`
-GREEN=`tput setf 2`
-CYAN=`tput setf 3`
-RED=`tput setf 4`
-MAGENTA=`tput setf 5`
-YELLOW=`tput setf 6`
-WHITE=`tput setf 7`
-PS1='\[$GREEN\]\u@\h \[$BLUE\]\w/\[$GREEN\] \$\[$WHITE\] '
 HISTFILESIZE=10000
 HISTSIZE=5000
 bind '"\e[A": history-search-backward'
