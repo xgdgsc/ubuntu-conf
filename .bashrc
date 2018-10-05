@@ -133,3 +133,6 @@ bind '"\e[A": history-search-backward'
 bind '"\e[B": history-search-forward'
 export PATH=" /home/gsc/data/MATLAB/R2013a/bin/:/opt/android-sdk/platform-tools/:$HOME/.linuxbrew/bin:$PATH"
 export LD_LIBRARY_PATH="$HOME/.linuxbrew/lib:$LD_LIBRARY_PATH"
+alias ssc='sudo systemctl'
+alias ss4proxy="export http_proxy='http://127.0.0.1:7777' && export https_proxy='http://127.0.0.1:7777'"
+alias ssfproxy="export http_proxy='http://127.0.0.1:1080' && export https_proxy='http://127.0.0.1:1080'"
