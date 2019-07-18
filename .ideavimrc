@@ -1,2 +1,4 @@
 set clipboard+=unnamed
 xnoremap p pgvy
+set ignorecase
+set smartcase
