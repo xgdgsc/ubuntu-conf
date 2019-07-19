@@ -25,7 +25,9 @@ define_multipurpose_modmap(
     # To use this example, you can't remap capslock with define_modmap.
 )
 
-
+define_keymap(re.compile("Github Desktop"), {
+    K("C-p"): K("C-p")
+}, "Github")
 # Keybindings for Firefox/Chrome
 define_keymap(re.compile("Firefox|Google-chrome"), {
     # Ctrl+Alt+j/k to switch next/previous tab
