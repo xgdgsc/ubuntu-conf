@@ -110,6 +110,7 @@ define_keymap(lambda wm_class: wm_class not in ("emacs24", "konsole", "Yakuake",
         K("C-g"): pass_through_key,
         # C-x u (undo)
         K("u"): [K("C-z"), set_mark(False)],
+        K("q"): K("M-f4"),
     }
 }, "Emacs-like keys")
 
