@@ -136,6 +136,13 @@ export LD_LIBRARY_PATH="$HOME/.linuxbrew/lib:$LD_LIBRARY_PATH"
 alias ssc='sudo systemctl'
 alias ss4proxy="export http_proxy='http://127.0.0.1:7777' && export https_proxy='http://127.0.0.1:7777'"
 alias ssfproxy="export http_proxy='http://127.0.0.1:1080' && export https_proxy='http://127.0.0.1:1080'"
+
+# ssh key
+# sudo apt-get install keychain
+eval $(keychain --eval --noask id_rsa)
+
+
+
 # colored man
 export LESS_TERMCAP_mb=$'\E[1;31m'     # begin bold
 export LESS_TERMCAP_md=$'\E[1;36m'     # begin blink
