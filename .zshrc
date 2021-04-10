@@ -152,6 +152,7 @@ alias ll='ls -l --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color
 alias la='ls -la --group-directories-first --time-style=+"%d.%m.%Y %H:%M" --color=auto -F'
 alias ss4proxy='export http_proxy="http://127.0.0.1:7777" && export https_proxy="http://127.0.0.1:7777"'
 alias ssfproxy='export http_proxy="http://127.0.0.1:1080" && export https_proxy="http://127.0.0.1:1080"'
+alias cproxy="export http_proxy='http://127.0.0.1:7890' && export https_proxy='http://127.0.0.1:7890'"
 alias go="/home/gsc/Documents/Apps/go/bin/go"
 alias gopath="export PATH='/home/gsc/Documents/Apps/go/bin/:/home/gsc/KuaiPan/Projects/Go/bin':$PATH"
 alias scu="systemctl --user"
