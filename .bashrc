@@ -136,7 +136,7 @@ export LD_LIBRARY_PATH="$HOME/.linuxbrew/lib:$LD_LIBRARY_PATH"
 alias ssc='sudo systemctl'
 alias ss4proxy="export http_proxy='http://127.0.0.1:7777' && export https_proxy='http://127.0.0.1:7777'"
 alias ssfproxy="export http_proxy='http://127.0.0.1:1080' && export https_proxy='http://127.0.0.1:1080'"
-
+alias cproxy="export http_proxy='http://127.0.0.1:7890' && export https_proxy='http://127.0.0.1:7890'"
 # ssh key
 # sudo apt-get install keychain
 eval $(keychain --eval --noask id_rsa)
